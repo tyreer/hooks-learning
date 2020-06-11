@@ -1,0 +1,50 @@
+html {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 45px 60px;
+  align-items: start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 50px 100px;
+}
+
+label {
+  display: block;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-top: 0;
+}
+
+input {
+  background-color: transparent;
+  font-size: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+h3,
+input {
+  color: aquamarine;
+}
+
+.App div {
+  grid-column: 1 / -1;
+  border: 5px solid white;
+  padding: 40px;
+}
+
+section {
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 40px;
+}
