@@ -25,16 +25,6 @@ h2 {
   margin-top: 0;
 }
 
-.App__answer {
-  font-style: italic;
-  font-size: 16px;
-  margin-bottom: 50px;
-}
-
-a {
-  color: white;
-}
-
 input {
   background-color: transparent;
   font-size: 20px;
