@@ -9,9 +9,13 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>
-          Why, <code>useEffect()</code>?
-        </h1>
+        <h1>🐛 What's the bug? 🐛</h1>
+        <p className="App__answer">
+          Answer{" "}
+          <a href="https://github.com/tyreer/learning-notes/blob/master/Egghead_simplify-react-apps-with-react-hooks.md#demo">
+            here
+          </a>
+        </p>
 
         <label htmlFor="title">What's a good name for a beer?</label>
         <input
