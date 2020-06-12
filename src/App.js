@@ -12,7 +12,11 @@ function App() {
         <h1>What's the bug?</h1>
         <p className="App__answer">
           🐛 Answer{" "}
-          <a href="https://github.com/tyreer/learning-notes/blob/master/Egghead_simplify-react-apps-with-react-hooks.md#demo">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/tyreer/learning-notes/blob/master/Egghead_simplify-react-apps-with-react-hooks.md#demo"
+          >
             here
           </a>
           🐛
